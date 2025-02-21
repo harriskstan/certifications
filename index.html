@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            margin: 20px;
+            margin: 20px 20px 50px;
             line-height: 1.8;
             background-color: #f5f5f5;
             color: #2c3e50;
@@ -19,7 +19,7 @@
             margin-bottom: 20px;
         }
         h2 {
-            color: #34495e;
+            color: #2d3f51;
             border-left: 5px solid #3498db;
             padding-left: 10px;
             font-size: 1.8rem;
@@ -38,10 +38,28 @@
             padding: 10px 15px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             max-width: 1000px;
             margin-left: auto;
             margin-right: auto;
+            color: #1c1c1c;
+        }
+
+        ul li:hover {
+            background-color: #e9ecef;
+            cursor: pointer;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        ul li a .award {
+             font-size: 0.9rem;
+             color: #6c757d;
+             margin:0;
         }
 
         @media (max-width: 500px) {
@@ -54,7 +72,11 @@
             }
 
             ul li {
-            font-size: 1rem;
+            font-size: 1.1rem;
+            }
+
+            ul li a .award {
+            font-size: 0.8rem;
             }
 
         }
@@ -63,53 +85,56 @@
 
 </head>
 <body>
-    <h1>Course Certifications</h1>
-
-    <!-- Generative AI Specialization -->
-    <h2>Generative AI (DeepLearning.AI, LangChain Academy)</h2>
+    <h2>Agentic AI</h2>
     <ul>
-        <li>AI Agents in LangGraph</li>
-        <li>AI Agentic Design Patterns</li>
-        <li>Introduction to LangGraph</li>
-        <li>Building Agentic RAG with LlamaIndex</li>
-        <li>Building and Evaluating Advanced RAG</li>
-        <li>Reasoning with o1</li>
-        <li>Open Source Models with Hugging Face</li>
-        <li>Attention in Transformers: Concepts and Code in PyTorch</li>
-        <li>How Transformer LLMs Work</li>
-        <li>Introducing Multimodal Llama 3.2</li>
-        <li>Finetuning Large Language Models</li>
-        <li>Pretraining LLMs</li>
-        <li>How Diffusion Models Work</li>
-        <li>Building Applications with Vector Databases</li>
-        <li>Understanding and Applying Text Embeddings</li>
-        <li>Embedding Models: From Architecture to Implementation</li>
-        <li>Quality and Safety for LLM Applications</li>
-        <li>Generative AI with Large Language Models</li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/56d17a07-23d2-4d5d-98c9-8c772da1d231">AI Agents in LangGraph<p class="award">Langchain, DeepLearning.AI</p></a></li>
+        <li><a href="https://academy.langchain.com/certificates/l9urdmr5gd">Introduction to LangGraph<p class="award">LangChain</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/565faa9e-e5d7-459c-84d0-7ffe2a00c18f">AI Agentic Design Patterns<p class="award">Microsoft, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/5c7b7406-f2db-40bd-943e-17c60e8f03e3">Building Agentic RAG with LlamaIndex<p class="award">LlamaIndex, DeepLearning.AI</p></a></li>
     </ul>
 
-    <!-- Machine Learning Specialization -->
-    <h2>Machine Learning (Stanford University)</h2>
+
+    <h2>Generative AI</h2>
     <ul>
-        <li>Neural Networks and Deep Learning</li>
-        <li>Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</li>
-        <li>Structuring Machine Learning Projects</li>
-        <li>Convolutional Neural Networks</li>
-        <li>Advanced Learning Algorithms</li>
-        <li>Supervised Machine Learning: Regression and Classification</li>
-        <li>Unsupervised Learning, Recommenders, and Reinforcement Learning</li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/fab1b9ac-4c04-45e1-8973-601f3dc959be">Reasoning with o1<p class="award">OpenAI, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/c3b71733-a144-45d7-9268-b983f7fe49d6">Pretraining LLMs<p class="award">Upstage, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/f743baca-fa74-4472-a7f3-b329fab00bb0">Finetuning Large Language Models<p class="award">Lamini, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/bf5667ec-5aa4-4e02-a77e-699563d15fde">How Diffusion Models Work<p class="award">DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/4afe2474-5e98-46ac-8f85-1672ee0b7eb8">Attention in Transformers: Concepts and Code in PyTorch<p class="award">StatQuest, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/6370d449-0e12-41e0-9c84-1b1f7d729cf2">How Transformer LLMs Work<p class="award">DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/d3d004be-3874-4891-816a-ed3b51990a30">Open Source Models with Hugging Face<p class="award">Hugging Face, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/660a1350-4fd7-4625-b921-5072aed3f33b">Introducing Multimodal Llama 3.2<p class="award">Meta, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/5188da6a-a3e4-4ded-bc57-89b519a16521">Building and Evaluating Advanced RAG<p class="award">LlamaIndex, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/9cd0973d-9d36-42a3-ae94-4abb3128ebbf">Building Applications with Vector Databases<p class="award">Pinecone, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/ce5f1f27-a8ee-49c5-af54-0c941d2a06b5">Understanding and Applying Text Embeddings<p class="award">Google Cloud, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/2e764290-8b42-463e-bfad-52057af6b0d3">Embedding Models: From Architecture to Implementation<p class="award">Vectara, DeepLearning.AI</p></a></li>
+        <li><a href="https://learn.deeplearning.ai/accomplishments/d53e2615-0dd1-47b2-a502-55bc8af38bdc">Quality and Safety for LLM Applications<p class="award">WhyLabs, DeepLearning.AI</p></a></li>
+        <li><a href="https://coursera.org/share/64f5d8c35332ead6f28cb1513a7382c1">Generative AI with Large Language Models<p class="award">AWS, DeepLearning.AI</p></a></li>
     </ul>
 
-    <!-- Google Advanced Data Analytics Specialization -->
-    <h2>Advanced Data Analytics (Google)</h2>
+
+    <h2>Machine Learning</h2>
     <ul>
-        <li>Foundations of Data Science</li>
-        <li>Get Started with Python</li>
-        <li>Go Beyond the Numbers: Translate Data into Insights</li>
-        <li>The Power of Statistics</li>
-        <li>Regression Analysis: Simplify Complex Data Relationships</li>
-        <li>The Nuts and Bolts of Machine Learning</li>
-        <li>Google Advanced Data Analytics Capstone</li>
+        <li><a href="https://coursera.org/share/5c25e19c65baf98759d1f2e1d11f9321">Machine Learning Specialization<p class="award">Stanford University</p></a></li>
+        <li><a href="https://coursera.org/share/aba06f0b9c4e077ccd6a8278f51125a6">Supervised Machine Learning: Regression and Classification<p class="award">Stanford University</p></a></li>
+        <li><a href="https://coursera.org/share/01e63999f3b1ec84f8039677769425e3">Unsupervised Learning, Recommenders, and Reinforcement Learning<p class="award">Stanford University</p></a></li>
+        <li><a href="https://coursera.org/share/303a5fa5fe14f1bd0926034a7f30ffc8">Advanced Learning Algorithms<p class="award">Stanford University</p></a></li>
+        <li><a href="javascript:void(0);">Neural Networks and Deep Learning<p class="award">DeepLearning.AI</p></a></li>
+        <li><a href="javascript:void(0);">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization<p class="award">DeepLearning.AI</p></a></li>
+        <li><a href="javascript:void(0);">Structuring Machine Learning Projects<p class="award">DeepLearning.AI</p></a></li>
+        <li><a href="javascript:void(0);">Convolutional Neural Networks<p class="award">DeepLearning.AI</p></a></li>
+    </ul>
+
+
+    <h2>Data Analytics</h2>
+    <ul>
+        <li><a href="https://coursera.org/share/c0344963c4e43477420b28d69bace2bc">Google Advanced Data Analytics Specialization<p class="award">Google</p></a></li>
+        <li><a href="https://coursera.org/share/c4a0aadd8db6bdfcb4e6d2ca182fc41b">Foundations of Data Science<p class="award">Google</p></a></li>
+        <li><a href="https://coursera.org/share/27f166eb0a5e737f00dd1f524eeb83e2">Go Beyond the Numbers: Translate Data into Insights<p class="award">Google</p></a></li>
+        <li><a href="https://coursera.org/share/ab84cf3c1341b4f4750d0822ae57ecbc">The Power of Statistics<p class="award">Google</p></a></li>
+        <li><a href="https://coursera.org/share/a67c3da1b2b14231bdcc01d91e034d3c">Regression Analysis: Simplify Complex Data Relationships<p class="award">Google</p></a></li>
+        <li><a href="https://coursera.org/share/0e21639163566033bc732244d6a5bce0">The Nuts and Bolts of Machine Learning<p class="award">Google</p></a></li>
+        <li><a href="https://coursera.org/share/95841cf6f140e5c6e171334ad7969feb">Google Advanced Data Analytics Capstone<p class="award">Google</p></a></li>
     </ul>
 
 </body>
